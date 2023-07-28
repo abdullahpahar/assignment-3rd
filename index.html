@@ -38,53 +38,56 @@
   <header class="my-4 container mx-auto ">
   
             <!-- nav-section -->
-    <div class="lg:grid grid-cols-3 lg: bg-red-400 rounded-full p-4 relative items-center justify-between hidden">
-      <div class="">
-        <ul class="flex lg:flex-row  gap-6 text-[18px] text-white font-medium mx-2">
-          <li><a href="">Home</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Shop</a></li>
-          <li><a href="">All Fruits</a></li>
-        </ul>
-      </div>
-      <div class=" flex flex-row justify-center items-center gap-2">
-        <img src="images/logo.png" alt="" class="w-10">
-        <h4 class="text-4xl font-bold text-white">Fruit Burst</h4>
-      </div>
-      <div class=" ">
-        <div class=" relative ml-28">
-          <input type="text" name="" id="" placeholder=" Search Here.... "
-            class="w-96 h-9 rounded-full outline-none bottom-3 p-6  ">
-        </div>
-        <div class="absolute bottom-6 right-9">
-          <i class="fa-solid fa-magnifying-glass "></i>
-        </div>
-      </div>
-    </div>
-    <!-- nav small device -->
-    <div class=" navbar lg:hidden">
-      <div class="navbar-start">
-        <div class=" flex flex-row justify-center items-center gap-2">
-          <img src="images/logo.png" alt="" class="w-10">
-          <h4 class="text-4xl font-bold text-white">Fruit Burst</h4>
-        </div>
-      </div>
-      <div class="navbar-start">
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost btn-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-          </label>
-          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-            <li><a>Homepage</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>About</a></li>
-          </ul>
-        </div>
-      </div>
-      
-        
-      </div>
-    </div>
+            <div class="navbar lg:bg-[#F85559;] rounded-3xl ">
+              <div class="navbar-start">
+                  <div class="dropdown lg:hidden">
+                      <label tabindex="0" class="btn btn-ghost btn-circle">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                              stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 6h16M4 12h16M4 18h7" />
+                          </svg>
+                      </label>
+                      <ul tabindex="0"
+                          class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                      </ul>
+                  </div>
+                  <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-white">
+                          <li><a>Home</a></li>
+                          <li><a>About Us</a></li>
+                          <li><a>Shop</a></li>
+                          <li><a>All Fruits</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="navbar-end lg:navbar-center">
+                  <img src="./images/logo.png" alt="">
+                  <p class="text-2xl lg:text-4xl text-black lg:text-white font-semibold">Fruit Brust</p>
+              </div>
+  
+  
+              <div class="navbar-end  relative hidden lg:flex">
+  
+                  <div class="relative mr-2 ">
+                    <input type="text" placeholder=" Search Here...." class="input input-bordered w-full md:w-auto outline-none " />
+                  </div>
+                
+                  <div class="absolute -mr-3">
+                      <button class="btn btn-ghost btn-circle mr-3 ">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                              stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                      </button>
+                  </div>
+              </div>
+          </div>
   </header>
   <!-- Banner Slider Section -->
   <div class="my-4 container mx-auto justify-center items-center">
